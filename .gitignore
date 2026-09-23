@@ -1,0 +1,23 @@
+@"
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Secrets & Environment Variables
+.env
+.env.*
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
